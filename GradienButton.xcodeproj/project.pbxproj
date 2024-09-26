@@ -11,6 +11,11 @@
 		FA97117B2CA586BD007D8728 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA97117A2CA586BD007D8728 /* ContentView.swift */; };
 		FA97117D2CA586BF007D8728 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA97117C2CA586BF007D8728 /* Assets.xcassets */; };
 		FA9711802CA586BF007D8728 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA97117F2CA586BF007D8728 /* Preview Assets.xcassets */; };
+		FA9711872CA58FE7007D8728 /* RadialGradientButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9711862CA58FE7007D8728 /* RadialGradientButtonView.swift */; };
+		FA9711892CA59035007D8728 /* Global.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9711882CA59035007D8728 /* Global.swift */; };
+		FA97118B2CA591A7007D8728 /* AngularGradientButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA97118A2CA591A7007D8728 /* AngularGradientButtonView.swift */; };
+		FA97118D2CA59203007D8728 /* LinearGradientOverlayButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA97118C2CA59203007D8728 /* LinearGradientOverlayButtonView.swift */; };
+		FA97118F2CA59284007D8728 /* G1.png in Resources */ = {isa = PBXBuildFile; fileRef = FA97118E2CA59284007D8728 /* G1.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +24,12 @@
 		FA97117A2CA586BD007D8728 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		FA97117C2CA586BF007D8728 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FA97117F2CA586BF007D8728 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FA9711862CA58FE7007D8728 /* RadialGradientButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadialGradientButtonView.swift; sourceTree = "<group>"; };
+		FA9711882CA59035007D8728 /* Global.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Global.swift; sourceTree = "<group>"; };
+		FA97118A2CA591A7007D8728 /* AngularGradientButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AngularGradientButtonView.swift; sourceTree = "<group>"; };
+		FA97118C2CA59203007D8728 /* LinearGradientOverlayButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinearGradientOverlayButtonView.swift; sourceTree = "<group>"; };
+		FA97118E2CA59284007D8728 /* G1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = G1.png; sourceTree = "<group>"; };
+		FA9711902CA592D5007D8728 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,10 +62,16 @@
 		FA9711772CA586BD007D8728 /* GradienButton */ = {
 			isa = PBXGroup;
 			children = (
-				FA9711782CA586BD007D8728 /* GradienButtonApp.swift */,
-				FA97117A2CA586BD007D8728 /* ContentView.swift */,
+				FA97118E2CA59284007D8728 /* G1.png */,
 				FA97117C2CA586BF007D8728 /* Assets.xcassets */,
+				FA97117A2CA586BD007D8728 /* ContentView.swift */,
+				FA9711882CA59035007D8728 /* Global.swift */,
+				FA9711782CA586BD007D8728 /* GradienButtonApp.swift */,
 				FA97117E2CA586BF007D8728 /* Preview Content */,
+				FA9711862CA58FE7007D8728 /* RadialGradientButtonView.swift */,
+				FA97118A2CA591A7007D8728 /* AngularGradientButtonView.swift */,
+				FA97118C2CA59203007D8728 /* LinearGradientOverlayButtonView.swift */,
+				FA9711902CA592D5007D8728 /* README.md */,
 			);
 			path = GradienButton;
 			sourceTree = "<group>";
@@ -125,6 +142,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA97118F2CA59284007D8728 /* G1.png in Resources */,
 				FA9711802CA586BF007D8728 /* Preview Assets.xcassets in Resources */,
 				FA97117D2CA586BF007D8728 /* Assets.xcassets in Resources */,
 			);
@@ -137,7 +155,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA9711892CA59035007D8728 /* Global.swift in Sources */,
 				FA97117B2CA586BD007D8728 /* ContentView.swift in Sources */,
+				FA97118B2CA591A7007D8728 /* AngularGradientButtonView.swift in Sources */,
+				FA9711872CA58FE7007D8728 /* RadialGradientButtonView.swift in Sources */,
+				FA97118D2CA59203007D8728 /* LinearGradientOverlayButtonView.swift in Sources */,
 				FA9711792CA586BD007D8728 /* GradienButtonApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
