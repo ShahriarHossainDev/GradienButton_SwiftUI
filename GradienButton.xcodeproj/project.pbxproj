@@ -46,6 +46,8 @@
 		FA97116C2CA586BD007D8728 = {
 			isa = PBXGroup;
 			children = (
+				FA9711902CA592D5007D8728 /* README.md */,
+				FA97118E2CA59284007D8728 /* G1.png */,
 				FA9711772CA586BD007D8728 /* GradienButton */,
 				FA9711762CA586BD007D8728 /* Products */,
 			);
@@ -62,7 +64,6 @@
 		FA9711772CA586BD007D8728 /* GradienButton */ = {
 			isa = PBXGroup;
 			children = (
-				FA97118E2CA59284007D8728 /* G1.png */,
 				FA97117C2CA586BF007D8728 /* Assets.xcassets */,
 				FA97117A2CA586BD007D8728 /* ContentView.swift */,
 				FA9711882CA59035007D8728 /* Global.swift */,
@@ -71,7 +72,6 @@
 				FA9711862CA58FE7007D8728 /* RadialGradientButtonView.swift */,
 				FA97118A2CA591A7007D8728 /* AngularGradientButtonView.swift */,
 				FA97118C2CA59203007D8728 /* LinearGradientOverlayButtonView.swift */,
-				FA9711902CA592D5007D8728 /* README.md */,
 			);
 			path = GradienButton;
 			sourceTree = "<group>";
